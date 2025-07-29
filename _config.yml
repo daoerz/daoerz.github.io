@@ -1,9 +1,9 @@
 title: Z 电视
-description: Z的网络电视
-author: Z
-email: daoerz911@gmail.com
-url: "https://daoerz.gihub.io"
-baseurl: ""
+# description: Z的网络电视
+# author: Z
+# email: daoerz911@gmail.com
+# url: "https://daoerz.gihub.io"
+# baseurl: ""
 theme: minima
 
 lang: zh-CN
