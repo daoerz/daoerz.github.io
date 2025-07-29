@@ -4,7 +4,7 @@ author: Z
 email: daoerz911@gmail.com
 url: "https://daoerz.gihub.io"
 baseurl: ""
-theme: Cayman
+theme: pages-themes/cayman@v0.2.0
 
 lang: zh-CN
 
@@ -17,6 +17,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate-v2
+  - jekyll-remote-theme
 
 # 分页
 pagination:
