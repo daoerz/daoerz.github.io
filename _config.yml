@@ -1,0 +1,43 @@
+title: Z 电视
+description: Z的网络电视
+author: Z
+email: daoerz911@gmail.com
+url: "https://daoerz.gihub.io"
+baseurl: ""
+theme: jekyll-theme-nettv
+
+lang: zh-CN
+
+markdown: kramdown
+highlighter: rouge
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+# 分页
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - 第 :num 页'
+
+# 主题专用变量
+# 1. 顶部导航
+nav:
+  - name: 首页
+    link: /
+  - name: 频道列表
+    link: /channels/
+  - name: 节目单
+    link: /epg/
+# 2. 播放器
+player:
+  primary:  "hls"        # 支持 hls / flv / dash
+  autoplay: false
+  muted:    true
+
+
