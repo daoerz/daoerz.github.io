@@ -1,4 +1,4 @@
-gem "jekyll-theme-nettv"
+gem "minima"
 group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem "jekyll-seo-tag"
